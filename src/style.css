@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  #invoice-preview {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
